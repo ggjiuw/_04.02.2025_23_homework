@@ -4,25 +4,25 @@ public class Main {
     public static void main(String[] args) {
 
         System.out.println("=== MATRIX 7x7 ===");
-        int[][] randomMatrix1 = matrix(7);
-        print(randomMatrix1);
-        System.out.println("7: " + countNums(randomMatrix1, 7));
-        System.out.println("11: " + countNums(randomMatrix1, 11));
-        System.out.println("18: " + countNums(randomMatrix1, 18));
+        int[][] randomMatrix = matrix(7);
+        print(randomMatrix);
+        System.out.println("7: " + countNums(randomMatrix, 7));
+        System.out.println("11: " + countNums(randomMatrix, 11));
+        System.out.println("18: " + countNums(randomMatrix, 18));
 
-        nullDiagonal(randomMatrix1);
-        System.out.println("\n=== AFTER nullDiagonal(randomMatrix1) ===");
-        print(randomMatrix1);
-        System.out.println("7: " + countNums(randomMatrix1, 7));
-        System.out.println("11: " + countNums(randomMatrix1, 11));
-        System.out.println("18: " + countNums(randomMatrix1, 18));
+        nullDiagonal(randomMatrix);
+        System.out.println("\n=== AFTER nullDiagonal(randomMatrix) ===");
+        print(randomMatrix);
+        System.out.println("7: " + countNums(randomMatrix, 7));
+        System.out.println("11: " + countNums(randomMatrix, 11));
+        System.out.println("18: " + countNums(randomMatrix, 18));
 
-        multiply(randomMatrix1);
-        System.out.println("\n=== AFTER multiply(randomMatrix1) ===");
-        print(randomMatrix1);
-        System.out.println("7: " + countNums(randomMatrix1, 7));
-        System.out.println("11: " + countNums(randomMatrix1, 11));
-        System.out.println("18: " + countNums(randomMatrix1, 18));
+        multiply(randomMatrix);
+        System.out.println("\n=== AFTER multiply(randomMatrix) ===");
+        print(randomMatrix);
+        System.out.println("7: " + countNums(randomMatrix, 7));
+        System.out.println("11: " + countNums(randomMatrix, 11));
+        System.out.println("18: " + countNums(randomMatrix, 18));
     }
 
     public static int[][] matrix(int size) {
